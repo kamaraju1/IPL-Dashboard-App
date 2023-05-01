@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.punjab {
+  background-image: linear-gradient(to bottom, #a4261d, #1e293b);
+  padding: 20px;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 2px;
+}
+.team-image-url {
+  align-self: center;
+  width: 90%;
+  margin-left: 60px;
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+.latest-match-card {
+  display: flex;
+  flex-direction: row;
+  background-color: #1e293b;
+  border-radius: 10px;
+}
+.left-card {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+}
+.match-card-items {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.latest-match-card {
+  background-color: #1e293b;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  margin-left: 50px;
+  padding: 15px;
+  height: fit-content;
+}
+.logo {
+  height: 240px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.left-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+}
+.umpires {
+  display: flex;
+  flex-direction: row;
+}
